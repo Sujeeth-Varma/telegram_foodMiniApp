@@ -1,6 +1,5 @@
-import { Telegraf } from "telegraf";
-import dotenv from "dotenv";
-dotenv.config();
+const { Telegraf } = require("telegraf");
+require("dotenv").config();
 
 const web_link = "https://rad-vacherin-d814d9.netlify.app/";
 
